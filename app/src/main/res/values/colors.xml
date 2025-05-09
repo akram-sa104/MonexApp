@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <color name="abuTerang">#D3D3D3</color> <!-- Light Gray -->
+        <color name="abuSedang">#A9A9A9</color> <!-- Dark Gray -->
+        <color name="abuTua">#696969</color>    <!-- Dim Gray -->
+
+
+</resources>

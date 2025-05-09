@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment"
+    android:background="@drawable/backgroundlogin">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="259dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Account"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacy And Security"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help And Support"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:text="Log Out"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="23sp" />
+</FrameLayout>
